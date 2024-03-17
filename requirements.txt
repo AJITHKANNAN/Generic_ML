@@ -10,4 +10,5 @@ scikit-learn
 catboost
 xgboost
 Flask
--e .
+seaborn
+# -e .
