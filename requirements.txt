@@ -1,0 +1,13 @@
+pandas 
+mlflow
+notebook
+numpy
+scikit-learn
+matplotlib
+python-box
+config-box # it make dict as an Object
+scikit-learn
+catboost
+xgboost
+Flask
+-e .
