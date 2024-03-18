@@ -129,6 +129,8 @@ env.bak/
 venv.bak/
 gml/
 .gml
+.artifacts
+
 
 # Spyder project settings
 .spyderproject
