@@ -99,8 +99,13 @@ class DataTransformation:
                 f"Applying preprocessing object on training dataframe and testing dataframe."
             )
 
+            # Applying transformation from the PKL file created
             input_feature_train_arr= preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr= preprocessing_obj.transform(input_feature_test_df)
+
+            
+            # fit_transform will try to fit all the values and perform the transformation mentioned on the train data
+            # transform is used to apply the same transformation applied on the train dataframe
 
             train_arr = np.c_[
                 input_feature_train_arr, np.array(target_feature_train_df)
